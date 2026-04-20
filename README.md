@@ -45,21 +45,6 @@ src/
 
 ## 📸 Screenshots
 
-### 🟢 Initial Screen
-![Initial Screen](./assets/screenshot1.png)
-
----
-
-### 🟡 No Project Selected
-![No Project](./assets/screenshot2.png)
-
----
-
-### 🔵 Project Details View
-![Project View](./assets/screenshot3.png)
-
----
-
 ### 🔴 Home
 ![Validation Modal](./src/assets/home.png)
 
