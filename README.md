@@ -1,17 +1,82 @@
-# React + Vite
+# 📌 Project Management App (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Project & Task Management App** built using **React (Vite)** and **Tailwind CSS**.  
+This app allows users to create projects, add tasks, and manage them efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📁 Create new projects
+- 📌 Select and view project details
+- 📝 Add tasks to a project
+- ❌ Delete tasks
+- 🗑️ Delete projects
+- ⚠️ Input validation with modal
+- 🎨 Clean UI using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# TaskManager
+- ⚛️ React (useState, component-based architecture)
+- ⚡ Vite (fast build tool)
+- 🎨 Tailwind CSS
+- 📦 JavaScript (ES6+)
+
+---
+
+## 📂 Folder Structure
+src/
+│
+├── components/
+│ ├── Input.jsx
+│ ├── NewProject.jsx
+│ ├── NoProjectSelected.jsx
+│ ├── ProjectSidebar.jsx
+│ ├── SelectedProject.jsx
+│
+├── App.jsx
+├── main.jsx
+└── App.css
+
+
+---
+
+## 📸 Screenshots
+
+### 🟢 Initial Screen
+![Initial Screen](./assets/screenshot1.png)
+
+---
+
+### 🟡 No Project Selected
+![No Project](./assets/screenshot2.png)
+
+---
+
+### 🔵 Project Details View
+![Project View](./assets/screenshot3.png)
+
+---
+
+### 🔴 Home
+![Validation Modal](./src/assets/home.png)
+
+### 🔴 Error Modal
+![Validation Modal](./src/assets/ModalError.png)
+
+### 🟣 Subtasks
+![Multiple Projects](./src/assets/SubTasks.png)
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/xdshivani/TaskManager.git
+cd <folder>
+npm install
+npm run dev
